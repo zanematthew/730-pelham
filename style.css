@@ -1,0 +1,63 @@
+/**
+ * Theme Name:  730 Pelham Road
+ * Theme URI:   http://zanematthew.com/ 
+ * Description: Child theme for Pelham
+ * Author:      Zane Matthew
+ * Author URI:  http://zanematthew.com/            
+ * Template:    pelham   
+ * Version:     0.1-beta
+ */
+
+@import url("../pelham/style.css");
+
+.hentry .plugin-meta {
+    margin: 0 0 20px;
+    margin: 0 20px 20px 0;
+    font-family: sans-serif;
+    font-size: 12px;
+    }
+    
+.hentry .plugin-meta a {}
+.hentry .plugin-meta a.github-url {}
+.hentry .plugin-meta a.downloads-url {}
+
+/*= Plugin Readme to Post styling
+-------------------------------------------------------------- */
+.prtp-container .ui-tabs .ui-tabs-nav {
+    background: white;
+    }
+
+.prtp-container .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    background: #f2f2f2;
+    }
+
+.prtp-container .ui-tabs .ui-tabs-nav li a {
+    font-weight: bold;
+    margin: 7px 7px 0;
+    padding: 7px 10px 10px;
+    }
+
+.hentry .prtp-container h1,
+.hentry .prtp-container h2,
+.hentry .prtp-container h3,
+.hentry .prtp-container h4,
+.hentry .prtp-container h5,
+.hentry .prtp-container h6 {
+    font: bold 15px/1.2 sans-serif;
+    margin: -6px 0 0px;
+    }
+
+
+.simple-footnotes p,
+.simple-footnotes { font-size: 13px; line-height: 17px; margin-top: 20px; color: #777; font-family: helvetica,sans-serif; font-weight: 300; }
+.simple-footnotes p.notes { margin-bottom: 0 }
+.simple-footnotes ol { margin-top: 0; }
+.simple-footnotes li { padding-top: 10px }
+
+sup {
+font-size: 13px;
+position: relative;
+vertical-align: baseline;
+line-height: 1;
+height: 0;
+bottom: 1ex;}
